@@ -1,0 +1,6 @@
+domain: github.com/Ankit152
+layout:
+- go.kubebuilder.io/v3
+projectName: crongo
+repo: crongo
+version: "3"
