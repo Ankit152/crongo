@@ -1,6 +1,19 @@
-domain: github.com/Ankit152
+domain: cronjob-operator
 layout:
 - go.kubebuilder.io/v3
 projectName: crongo
 repo: crongo
+resources:
+- group: batch
+  kind: CronJob
+  path: k8s.io/api/batch/v1
+  version: v1
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: cronjob-operator
+  group: batch
+  kind: CronJob
+  path: crongo/api/v1
+  version: v1
 version: "3"
