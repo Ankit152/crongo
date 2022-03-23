@@ -8,4 +8,4 @@ webhook:
   port: 9443
 leaderElection:
   leaderElect: true
-  resourceName: 01dd391f.github.com/Ankit152
+  resourceName: 01dd391f.cronjob-operator
