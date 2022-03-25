@@ -99,7 +99,7 @@ func (r *CronJob) validateCronJob() error {
 	}
 
 	return apierrors.NewInvalid(
-		schema.GroupKind{Group: "batch.tutorial.kubebuilder.io", Kind: "CronJob"},
+		schema.GroupKind{Group: "batch.cronjob-operator", Kind: "CronJob"},
 		r.Name, allErrs)
 }
 
